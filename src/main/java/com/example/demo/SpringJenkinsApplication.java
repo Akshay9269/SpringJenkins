@@ -9,6 +9,7 @@ public class SpringJenkinsApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
+		System.out.println("Inside main ");
 	}
 	
 	@Override
