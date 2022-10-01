@@ -9,13 +9,14 @@ public class SpringJenkinsApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
-		System.out.println("Inside main ");
+		
 	}
 	
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 	System.out.println("CommandLine Running");	
+	System.out.println("Inside main ");
 	}
 
 }
