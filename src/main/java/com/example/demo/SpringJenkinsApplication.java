@@ -16,7 +16,7 @@ public class SpringJenkinsApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 	System.out.println("CommandLine Running");	
-	System.out.println("Inside main ")
+	System.out.println("Inside main ");
 	}
 
 }
